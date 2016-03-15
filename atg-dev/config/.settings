@@ -1,0 +1,19 @@
+{
+    "username": "osama.nasir@altayer.com.dev", 
+    "environment": "sandbox", 
+    "project_name": "atg-dev", 
+    "workspace": "C:\\Users\\osama.nasir\\Dropbox\\Accenture\\Projects\\Al Tayer\\Mavensmate", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "X4JMVIN56PAKUVXGDU88R06E2F9E8G8D", 
+    "metadata_container": "1dc8E000000ABlNQAW", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}

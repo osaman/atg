@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Triggers_Disabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if all triggers are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows if all triggers are disabled</inlineHelpText>
+        <label>Triggers Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Validation_Disabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if all the validation rules are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows if all the validation rules are disabled</inlineHelpText>
+        <label>Validation Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Workflows_Disabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if all the workflows are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows if all the workflows are disabled</inlineHelpText>
+        <label>Workflows Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>App Settings</label>
+</CustomObject>

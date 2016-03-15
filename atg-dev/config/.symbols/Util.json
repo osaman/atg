@@ -1,0 +1,69 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "Util", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 10
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "Util", 
+    "tableDeclaration": {
+        "type": "Util", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 9
+        }, 
+        "name": "Util"
+    }, 
+    "key": "01p8E0000000tdcQAA", 
+    "variables": [
+        {
+            "type": "App_Settings__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 23
+            }, 
+            "name": "aps"
+        }
+    ], 
+    "id": "01p8E0000000tdcQAA", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "IsTriggerAllowed", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 22
+            }, 
+            "returnType": "Boolean", 
+            "type": null
+        }
+    ]
+}
