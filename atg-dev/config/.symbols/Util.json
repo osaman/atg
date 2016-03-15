@@ -3,22 +3,7 @@
     "externalReferences": [], 
     "innerClasses": [], 
     "interfaces": [], 
-    "constructors": [
-        {
-            "modifiers": [
-                "public"
-            ], 
-            "name": "Util", 
-            "parameters": [], 
-            "visibility": "PUBLIC", 
-            "references": [], 
-            "location": {
-                "column": 9, 
-                "line": 10
-            }, 
-            "type": null
-        }
-    ], 
+    "constructors": [], 
     "namespace": null, 
     "name": "Util", 
     "tableDeclaration": {
@@ -42,7 +27,7 @@
             "references": [], 
             "location": {
                 "column": 20, 
-                "line": 23
+                "line": 19
             }, 
             "name": "aps"
         }
@@ -60,7 +45,7 @@
             "references": [], 
             "location": {
                 "column": 24, 
-                "line": 22
+                "line": 18
             }, 
             "returnType": "Boolean", 
             "type": null

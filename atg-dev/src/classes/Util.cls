@@ -7,18 +7,14 @@
  */
 
 public with sharing class Util {
-	public Util() {
-		
-	}
-
+	
 	/*
    *  Checks if triggers are disabled orgwide
    *  @name IsTriggerAllowed
-   *  @param n/a
+   *  @param n/a 
    *  @return <parameter> - returns if triggers are disabled
    *  @throws none
    */
-
 	public static Boolean IsTriggerAllowed(){
 			App_Settings__c aps = App_Settings__c.getOrgDefaults();
 		return !aps.Triggers_Disabled__c;

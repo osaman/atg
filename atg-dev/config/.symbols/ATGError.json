@@ -1,0 +1,186 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ATGError", 
+    "tableDeclaration": {
+        "type": "ATGError", 
+        "modifiers": [
+            "public"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 8
+        }, 
+        "name": "ATGError"
+    }, 
+    "key": "01p8E0000000ucVQAQ", 
+    "variables": [
+        {
+            "type": "Exception", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 20
+            }, 
+            "name": "e"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 47, 
+                "line": 20
+            }, 
+            "name": "subject"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 21
+            }, 
+            "name": "message"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 28
+            }, 
+            "name": "message"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 51, 
+                "line": 28
+            }, 
+            "name": "subject"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 32
+            }, 
+            "name": "message"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 51, 
+                "line": 32
+            }, 
+            "name": "subject"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 67, 
+                "line": 32
+            }, 
+            "name": "errortype"
+        }
+    ], 
+    "id": "01p8E0000000ucVQAQ", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "log", 
+            "parameters": [
+                {
+                    "type": "Exception", 
+                    "name": "e"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "subject"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 20
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "log", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "message"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "subject"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 28
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "log", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "message"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "subject"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "errortype"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 32
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}
